@@ -9,8 +9,8 @@ const HomeScreen = () => {
   const [state1, setState1] = useState<boolean>(false);
   const [state2, setState2] = useState<boolean>(false);
   return (
-    <div className="w-full m-1.5">
-      <div className="grid w-full lg:grid-cols-3 gap-2 grid-cols-2 ">
+    <div className="">
+      <div className=" grid w-full lg:grid-cols-3 gap-2 grid-cols-2 ">
         <div className="bg-blue-500 border text-white rounded-md p-4">
           start
         </div>
@@ -22,8 +22,8 @@ const HomeScreen = () => {
       col-span-3 lg:col-span-1 grid gap-2  
       "
         >
-          <div className="bg-pink-500 p-4 rounded-md">start1</div>
-          <div className="bg-pink-500 p-4 rounded-md">start1</div>
+          <div className="bg-pink-500 rounded-md h-[150px]">start1</div>
+          <div className="bg-pink-500 rounded-md h-[150px]">start1</div>
         </div>
       </div>
 
